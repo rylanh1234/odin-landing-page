@@ -45,13 +45,16 @@ body {
 
 .hero {
     justify-content: space-between;
+    padding: 75px 200px;
+    height: 250px;
 }
 
 .hero .container {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-top: 75px;
+    width: calc(50%);
+    gap: 16px;
+    padding-right: 36px;
 }
 
 .hero .main {
@@ -64,6 +67,11 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.hero img {
+    width: calc(50%);
+}
+
 .information {
     display: flex;
     flex-direction: column;
